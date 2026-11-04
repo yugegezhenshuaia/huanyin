@@ -1,0 +1,15 @@
+# 统一换行符，保证 GitHub 上不乱码
+* text=auto eol=lf
+
+*.md   text eol=lf
+*.cs   text eol=lf
+*.ps1  text eol=lf
+*.json text eol=lf
+*.yml  text eol=lf
+
+# 二进制文件不要做文本处理
+*.exe  binary
+*.ico  binary
+*.png  binary
+*.zip  binary
+*.wasm binary

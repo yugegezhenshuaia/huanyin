@@ -1,0 +1,7 @@
+﻿# 构建产物
+dist/
+*.exe
+payload.bin
+# 临时
+*.tmp
+*.log
